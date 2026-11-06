@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registration Form">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+
+    <h1>
+    Coding Club
+    <br>
+    <span style="font-size:24px;">Learn. Build. Share.</span>
+</h1>
+
+    <nav>
+        <a href="conatct.html">contact</a>
+        <br>
+        <a href="index.html">Home</a>
+        
+    </nav>
+
+    <hr>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" required><br><br>
+
+        <label for="date">Date of Birth:</label><br>
+        <input type="date" id="date"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone"><br><br>
+
+        <p>Gender:</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br><br>
+
+        <p>Skills:</p>
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="java">
+        <label for="java">Java</label><br><br>
+
+        <label for="course">Interested Area:</label><br>
+        <select id="course">
+            <option>Web Development</option>
+            <option>Java Programming</option>
+            <option>Python Programming</option>
+            <option>Data Science</option>
+        </select>
+
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
